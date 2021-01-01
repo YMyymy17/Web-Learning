@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+	  width: 400px;
+	  height: 260px;
+	  margin: 200px auto;
+	  border: 1px solid blue;
+	  background-color:lightgreen;
+	  }
+label{
+	display: inline-block;
+	padding: 20px 6px;
+	text-align: right;
+	width: 100px;
+	vertical-align: top;
+	}
+input{
+	box-shadow: -1px -1px 1px #888;
+	margin: 20px 0;
+	}
+p{
+	margin: 0 5px;
+	text-align: center;
+	}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>用户登录</title>
+<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+	<form action="login.action" name="myform">
+	<p>
+		<label>I&nbsp;&nbsp;D</label>
+		<input type="text" name="id"><br>
+		<label>密码</label>
+		<input type="password" name="upwd"><br>
+		<label>验证码</label>
+		<input type="text" name="uyzm"><br>
+		<image src="yzm">
+	</p>
+	<p>
+		<input type="submit" value="登录" >
+		<input type="button" onclick="return reset()" value="重填">
+	</p>
+	</form>
+	
+	<script type="text/javascript">
+	function reset(){
+		myform.account.value="";
+		myform.upwd.value="";
+	}
+	</script>
+</body>
+</html>
